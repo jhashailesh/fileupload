@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Contact Us</title>
+</head>
+
+<body>
+
+    <div> Upload </div>
+    <form action="php/send.php" method="POST" enctype="multipart/form-data">
+        <input class="contus" type="name" name="name" placeholder="name.." required autofocus>
+
+        <input class="contus" type="email" name="email" placeholder="Email..." required>
+
+        <input class="contus" type="tel" name="phno" placeholder="contact number" required onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+
+        <input type="file" name="file_upload" required>
+
+        <input type="Submit" name="submit">
+    </form>
+    <a class="link" href="php/showlist.php">see all list available</a>
+</body>
+
+</html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">

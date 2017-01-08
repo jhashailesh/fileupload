@@ -1,0 +1,97 @@
+.container{
+    padding: 20px;
+    width: 40%;
+    font-family: verdana;
+    text-align: center;
+    padding-left: 30px;
+    border: solid 2px lightgray;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+.delete{
+    width: 90%;
+    height: 300px;
+    margin: 5px;
+    text-align: right;
+}
+.delete > a >i{
+    float: right;
+    width:20px;
+    height: 20px;
+    color: lightgray;
+}
+.delete > a >i:hover{
+    color: #636363;
+}
+.name{
+    width: 90%;
+    height: 300px;
+    margin: 5px;
+    
+}
+
+.name > span{
+    width: 90%;
+    border: solid 1px #363636;
+    border-radius: 5px;
+    padding: 10px;
+   margin: 10px auto;
+    float: left;
+    text-align: center;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+.link{
+    background-color:  teal;
+}
+.link > a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.home{
+    width: 90%;
+    margin: 5px auto;
+    text-align: center;
+    font: verdana;
+    height: 20px;
+    color: #363636;
+    text-decoration: none;
+}
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    background-color: #fff;
+
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    background-color: #363636;
+}
+@media only screen and (max-width: 1200px) {
+    .container {
+        width: 65%;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .container{
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .container{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        width: 90%;
+    }
+}
